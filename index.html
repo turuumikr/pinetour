@@ -1,81 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project1</title>
     <link rel="stylesheet" href="index.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div id="header">
-            <img id="header-logo" src="img/logo.png">
-        </div>
+      <div id="header">
+        <img id="header-logo" src="img/logo.png" />
+      </div>
     </header>
 
-    <main style="
-width:100vw;
-display:flex;
-justify-content:center;flex-direction: column;
-align-items: center;">
+    <main
+      style="
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      "
+    >
+      <!-- Intro section -->
 
-        <!-- Intro section -->
+      <div id="intro-section">
+        <div>
+          <h1 id="intro-title">Khuvsgul Lake</h1>
+          <h6 id="intro-sub-title">Trip</h6>
+        </div>
+        <div id="intro-image-container">
+          <img class=" zoom intro-image"  src="img/pic1.png" />
+          <img class=" zoom intro-image" src="img/pic2.png" />
+          <img class=" zoom intro-image" src="img/pic3.png" />
+          <img class=" zoom intro-image" src="img/pic4.png" />
+        </div>
+      </div>
 
-        <div id="intro-section">
-            <div>
-                <h1 id="intro-title">Khuvsgul Lake</h1>
-                <h6 id="intro-sub-title">Trip</h6>
+      <!-- Direction section -->
+
+      <div id="Direction-section">
+        <div id="direction-info">
+          <div>
+            <h3 id="list-section">TOURS | 6 DAYS</h3>
+            <h1 id="list-info">Destination of Our Agency</h1>
+          </div>
+          <div style="display: flex; flex-direction: column">
+            <!-- 1 Circle  -->
+            <div style="display: flex; align-items: center; gap: 10px">
+              <div
+                style="
+                  width: 56px;
+                  height: 56px;
+                  background-color: black;
+                  border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                D1
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <span class="direction-scene"> Sukhbaatar square </span>
+                <span class="direction-scene2"> Ulaanbator </span>
+              </div>
             </div>
-            <div id="intro-image-container">
-                <img class="intro-image" src="img/pic1.png">
-                <img class="intro-image" src="img/pic2.png">
-                <img class="intro-image" src="img/pic3.png">
-                <img class="intro-image" src="img/pic4.png">
+            <!-- 1 line  -->
+            <div
+              style="
+                width: 56px;
+                height: 56px;
+                border-left: 1px dotted black;
+                margin-left: 28px;
+                border-right: none;
+                border-top: none;
+                border-bottom: none;
+              "
+            ></div>
+            <!-- 2 Circle  -->
+            <div style="display: flex; align-items: center; gap: 10px">
+              <div
+                style="
+                  width: 56px;
+                  height: 56px;
+                  background-color: black;
+                  border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                D2
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <span class="direction-scene">Khuwsgul lake</span>
+                <span class="direction-scene2">Khuwsgul</span>
+              </div>
             </div>
+            <!-- 2 line -->
+            <div
+              style="
+                width: 56px;
+                height: 56px;
+                border-left: 1px dotted black;
+                margin-left: 28px;
+                border-right: none;
+                border-top: none;
+                border-bottom: none;
+              "
+            ></div>
+            <!-- 3 circle -->
+            <div style="display: flex; align-items: center; gap: 10px">
+              <div
+                style="
+                  width: 56px;
+                  height: 56px;
+                  background-color: black;
+                  border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                D3
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <span class="direction-scene">Khorgiin togoo</span>
+                <span class="direction-scene2">Arkhangai</span>
+              </div>
+            </div>
+            <!-- 3 line  -->
+            <div
+              style="
+                width: 56px;
+                height: 56px;
+                border-left: 1px dotted black;
+                margin-left: 28px;
+                border-right: none;
+                border-top: none;
+                border-bottom: none;
+              "
+            ></div>
+            <!-- 4 circle  -->
+            <div style="display: flex; align-items: center; gap: 10px">
+              <div
+                style="
+                  width: 56px;
+                  height: 56px;
+                  background-color: black;
+                  border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                D4
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <span class="direction-scene">Terkhiin tsagaan lake</span>
+                <span class="direction-scene2">Arkhangai</span>
+              </div>
+            </div>
+            <!-- 4 line  -->
+            <div
+              style="
+                width: 56px;
+                height: 56px;
+                border-left: 1px dotted black;
+                margin-left: 28px;
+                border-right: none;
+                border-top: none;
+                border-bottom: none;
+              "
+            ></div>
+            <!-- 5 circle  -->
+            <div style="display: flex; align-items: center; gap: 10px">
+              <div
+                style="
+                  width: 56px;
+                  height: 56px;
+                  background-color: black;
+                  border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                D5
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <span class="direction-scene">Amarbaysgalant monastry</span>
+                <span class="direction-scene2">Bulgan</span>
+              </div>
+            </div>
+            <!-- 5 line -->
+            <div
+              style="
+                width: 56px;
+                height: 56px;
+                border-left: 1px dotted black;
+                margin-left: 28px;
+                border-right: none;
+                border-top: none;
+                border-bottom: none;
+              "
+            ></div>
+            <!-- 6 circle  -->
+            <div style="display: flex; align-items: center; gap: 10px">
+              <div
+                style="
+                  width: 56px;
+                  height: 56px;
+                  background-color: black;
+                  border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                D6
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <span class="direction-scene"> Sukhbaatar square </span>
+                <span class="direction-scene2"> Ulaanbator </span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Direction section -->
-
-        <div id="Direction-section">
-            <div id="direction-info">
-                <div>
-                    <h3 id="list-section">TOURS | 6 DAYS </h3>
-                    <h1 id="list-info">Destination of Our Agency</H1>
-
-
-                </div>
-                <div>
-                    <h5 id="list-1 ">Sukhbaatar square</h5>
-
-                </div>
-            </div>
-
-            <div id="direction-image">
-                <img id="map-pic" src="img/map.png" alt="">
-
-
-
-            </div>
-
+        <div id="direction-image">
+          <img id="map-pic" src="img/map.png" alt="" />
         </div>
+      </div>
 
-        <!-- Pricing section -->
-
+      <!-- Pricing section -->
     </main>
 
     <footer>
-        <div id="footer">
-            <div id="footer-section">
-                <img id="footer-logo" src="img/logo.png">
-                <div style="display:flex; align-items: center">
-                    <img class="footer-icon" ; style="padding-right:20px" ; src="img/facebook">
-                    <img class="footer-icon" src="img/Frame 39.png">
-                </div>
-            </div>
+      <div>
+        <div id="pricing-section">
+          <div class="title-container">
+            <div id="pricing-title">Pricing</div>
+            <div id="pricing-subtitle">Pricing of Our Agency</div>
+          </div>
+          <div class="pricing-sub-title3">
+            <ul class="pricing-sub-title">
+              <li><h1>Starter pack</h1></li>
+              <li class="pricing-title">Trip</li>
+              <li class="pricing-title">Hotel</li>
+              <li class="pricing-title">Breakfast</li>
+              <li class="pricing-title">Lunch</li>
+              <li class="pricing-title">Dinner</li>
+              <h1>2100$</h1>
+            </ul>
+            <ul class="pricing-sub-title2">
+              <span> <h1>Luxury pack</h1></span>
+              <li><h1>Starter pack</h1></li>
+              <li class="pricing-title">Flights</li>
+              <li class="pricing-title">Cruise trip</li>
+              <li class="pricing-title">Cruise trip</li>
+              <h1>4200$</h1>
+            </ul>
+          </div>
         </div>
-    </footer>
-</body>
+      </div>
+      <!-- are you ready scene -->
 
+      <div>
+        <div id="footer-top">
+          <div id="footer-top2"> <h1>Are you ready ?</h1></div>
+          <div id="footer-order"> <h2>Order now</h2></div>
+        </div>
+        <div id="footer">
+          <div id="footer-section">
+            <img id="footer-logo" src="img/logo.png" />
+            <div style="display: flex; align-items: center">
+              <img
+                class="footer-icon"
+                ;
+                style="padding-right: 20px"
+                ;
+                src="img/facebook.png"
+              />
+              <img class="footer-icon" src="img/instagram.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
